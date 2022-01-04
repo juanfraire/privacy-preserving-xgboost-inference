@@ -6,6 +6,8 @@ import pytest
 # This test file mainly test binary prediction for xgboost
 # It tests all of the interfaces using OPE, Paillier, etc.
 import sys
+sys.path.append('../third-party')
+
 import pickle as pl
 import pandas as pd
 import random

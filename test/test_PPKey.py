@@ -1,6 +1,9 @@
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: Apache-2.0
 
+import sys
+sys.path.append('../third-party')
+
 # This test file tests the Key wrapper (PPKey.py)
 from random import randrange
 from secrets import token_bytes
